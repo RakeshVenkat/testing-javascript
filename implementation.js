@@ -1,15 +1,6 @@
-// Here is an example to run tests IN YOUR BROWSER.
-
-function square(n) {
-  return n * n;
+function square(num) {
+  return num * num;
 }
 
-
-// Here is an example to run tests with the command `npm test` IN YOUR TERMINAL
-// module.exports = {
-//   square: function(n) {
-//     return n * n;
-//   }
-//
-//
-// }
+// line 6 is necessary to allow this function, square, to be exported and read by another file
+// module.exports = square
