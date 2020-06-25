@@ -149,3 +149,13 @@ We're going to write a function called `fizzBuzz()` that will behave as follows 
 
 * [Running Tests In the Browser](http://mochajs.org/#running-mocha-in-the-browser)  
 * [Blog Post about TDD vs BDD](http://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
+
+## Configure Mocha
+Inorder to configure Mocha to run tests from a separate directory, create a `mocha.opts` file under the `test` directory with the folder name mentioned.
+example: `testingWithSinon`
+now running `mocha` will detect the `*.test.js` files and executes all the tests in those files. 
+
+[Answer in Stackoverflow](https://stackoverflow.com/questions/10753288/how-to-specify-test-directory-for-mocha)
+
+## Sinon
+Sinon provides multiple mocking functions like for ex: `useFakeTimers()`
